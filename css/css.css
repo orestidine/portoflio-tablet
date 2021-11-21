@@ -1,0 +1,172 @@
+body{
+  background-color: #0a0a0a;
+  height: auto;
+  margin: 0;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.nav_links{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.nav_links a{
+  color:red;
+  padding: 24px;
+  line-height: 1em;
+  text-decoration: solid; 
+  font-size: 20px;
+}
+.nav_links a:focus{
+  color:yellow;
+}
+.nav_links :hover{
+  transition-property: all;
+  transition-duration: 750ms;
+  color: white;
+}
+li.nav_item.current{
+  padding: 24px;
+ 
+}
+a.skip{
+  -webkit-transition: top 1s ease-out;
+  z-index: 1;
+  background: white;
+  position: absolute;
+  top: -40px;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+a.skip:focus{
+  top: 20px;
+  color: black;
+  text-decoration-style: solid;
+}
+#contact_title{
+  color: red;
+  text-align: center;
+}
+.form{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  text-align: center;
+  color: red
+}
+footer{
+  display: block;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color:black;
+}
+
+/* STATS */
+td{
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 10px;
+  }
+    
+    
+.colhead{
+  color: #FFFFFF;
+  min-width: 50px;
+  padding: 10px;
+  background-color: darkred;
+  text-transform: uppercase;
+  }
+    
+.rowhead{
+  border-right: 2px solid yellow;
+  border-top: 2px solid black;
+  }
+    
+    
+table{
+  border: 5px solid yellow;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#gallery{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: yellow;
+}
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.gallery > img{
+  display: flex;
+  height: auto;
+  width: 90vw;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  padding: 5px;
+  margin: 15px;
+}
+td{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+}
+tr{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+}
+#biography{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: yellow;
+}
+
+#trophies{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: yellow;
+}
+/* # */
+.club_stats{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: yellow;
+}
+#international_stats{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: yellow;
+}

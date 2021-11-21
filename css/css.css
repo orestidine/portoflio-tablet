@@ -170,3 +170,8 @@ tr{
   flex-direction: column;
   color: yellow;
 }
+@media screen and (min-width: 750px){
+  table{
+    width: 85%;
+  }
+}
